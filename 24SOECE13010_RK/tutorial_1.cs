@@ -10,16 +10,20 @@ namespace _24SOECE13010_RK
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Enter number to chek odd or even");
-            Console.WriteLine("Enter the number:");
-            int a = Convert.ToInt32(Console.ReadLine());
-            if(a % 2 == 0)
+            int x;
+            
+            Console.Write("Enter the number:");
+            string str = Console.ReadLine();
+
+            x = Convert.ToInt32(str);
+
+            if(x % 2 == 0)
             {
-                Console.WriteLine($"The {a} is even.");
+                Console.WriteLine("Number is Even.");
             }
             else
             {
-                Console.WriteLine($"The {a} is odd.");
+                Console.WriteLine("The Number is Odd.");
             }
 
             Console.ReadLine(); 
