@@ -16,10 +16,13 @@ namespace _24SOECE13010_RK
             Console.WriteLine("Second number:");
             int b = Convert.ToInt32(Console.ReadLine());
 
+            //c=int.Parse(Console.ReadLine());
+
+
             int sum;
             sum = a + b;
 
-            Console.WriteLine("The sum of the two numbers is:");
+            Console.WriteLine($"The sum of {a} and {b} is:");
             Console.WriteLine(sum);
 
             Console.Read();
