@@ -10,10 +10,17 @@ namespace _24SOECE13010_RK
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
-            Console.WriteLine("My Name is Rahul");
-            Console.WriteLine("My Roll num is 43");
-            Console.WriteLine("My Branch is CE"); 
+            Console.WriteLine("Enter two numbers to add:");
+            Console.WriteLine("First number:");
+            int a =Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Second number:");
+            int b = Convert.ToInt32(Console.ReadLine());
+
+            int sum;
+            sum = a + b;
+
+            Console.WriteLine("The sum of the two numbers is:");
+            Console.WriteLine(sum);
 
             Console.Read();
             
