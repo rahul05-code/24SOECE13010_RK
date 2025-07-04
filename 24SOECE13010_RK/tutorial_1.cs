@@ -8,23 +8,55 @@ namespace _24SOECE13010_RK //name space for program
 {
     internal class tutorial_1 //class name
     {
-        public static void Main(string[] args)//main method
+        static void Main(string[] args)
+
         {
-            int n, fact=1; //n variable declare and fact initializes
-            
-            Console.Write("Enter the number:"); //prompts for user enter 
-            string str = Console.ReadLine(); // reads input
 
-            n = Convert.ToInt32(str); //converts string to intrger
+            int a, b, c, result;
 
-            for (int i = 1; i <= n; i++) //loops from 1 to 'n'
-            {
-                fact = fact * i; //Calculates factorial by multiplying 'fact' with 'i' in each iteration
-            }
+            Console.Write("Enter Number   1: ");
 
-            Console.WriteLine("Factorial : {0}",fact);//display calculated factorial
+            string str = Console.ReadLine();
 
-            Console.Read(); // waits for user to press a key before closing the console window
+            a = Convert.ToInt32(str);
+
+
+
+            Console.Write("Enter Number  2 : ");
+
+            string str2 = Console.ReadLine();
+
+            b = Convert.ToInt32(str2);
+
+
+
+            Console.Write("Enter Number   3 : ");
+
+            string str3 = Console.ReadLine();
+
+            c = Convert.ToInt32(str3);
+
+
+
+            result = Sum(a, b, c);
+
+            Console.WriteLine("Sum : {0}", result);
+
+
+
+            Console.Read();
+
+        }
+
+        static int Sum(int x, int y, int z)
+
+        {
+
+            int res;
+
+            res = x + y + z;
+
+            return res;
 
         }
     }
