@@ -10,14 +10,17 @@ namespace _24SOECE13010_RK
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Name: Rahul Kanzariya");
-            Console.WriteLine("DOB: 5/10/2005");
-            Console.WriteLine("Address: vajepar street 3 ");
-            Console.WriteLine("City: Morbi");
-            Console.WriteLine("Pin Code: 363641");
-            Console.WriteLine("State: Gujarat");
-            Console.WriteLine("Country: India");
-            Console.WriteLine("Email:rkanzariya861@rku.ac.in");
+            Console.WriteLine("Enter number to chek odd or even");
+            Console.WriteLine("Enter the number:");
+            int a = Convert.ToInt32(Console.ReadLine());
+            if(a % 2 == 0)
+            {
+                Console.WriteLine($"The {a} is even.");
+            }
+            else
+            {
+                Console.WriteLine($"The {a} is odd.");
+            }
 
             Console.ReadLine(); 
 
