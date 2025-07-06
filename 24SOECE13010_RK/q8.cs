@@ -8,12 +8,18 @@ namespace _24SOECE13010_RK
 {
     internal class q8
     {
-        public static void main(string[] args)
+        static void Main(string[] args)
         {
             Console.WriteLine("Enter Text:");
-            string input = Console.ReadLine();
+            string input =Console.ReadLine();
 
-            Console.WriteLine(
+            input = input.ToUpper();
+
+            Console.WriteLine("Uppercase Text:"+input);
+
+            Console.ReadLine();
+
+
         }
     }
 }
