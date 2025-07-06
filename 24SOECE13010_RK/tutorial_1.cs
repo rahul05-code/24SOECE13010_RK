@@ -11,53 +11,25 @@ namespace _24SOECE13010_RK //name space for program
         static void Main(string[] args)
 
         {
+            int num1, res, i;
 
-            int a, b, c, result;
+            Console.WriteLine("Enter a number");
+            num1 = Convert.ToInt32(Console.ReadLine());
 
-            Console.Write("Enter Number   1: ");
+            i = 1; //Initialization
 
-            string str = Console.ReadLine();
-
-            a = Convert.ToInt32(str);
-
-
-
-            Console.Write("Enter Number  2 : ");
-
-            string str2 = Console.ReadLine();
-
-            b = Convert.ToInt32(str2);
+            //Check whether condition matches or not
+            while (i <= 10)
+            {
+                 res = num1 * i;
+                 Console.WriteLine("{0} x {1} = {2}", num1, i, res);
 
 
+                 i++; //Increment by one
+            }
 
-            Console.Write("Enter Number   3 : ");
-
-            string str3 = Console.ReadLine();
-
-            c = Convert.ToInt32(str3);
-
-
-
-            result = Sum(a, b, c);
-
-            Console.WriteLine("Sum : {0}", result);
-
-
-
-            Console.Read();
-
-        }
-
-        static int Sum(int x, int y, int z)
-
-        {
-
-            int res;
-
-            res = x + y + z;
-
-            return res;
-
+            Console.ReadLine();
+            
         }
     }
 }
