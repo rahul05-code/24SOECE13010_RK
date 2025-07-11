@@ -8,6 +8,9 @@ namespace _24SOECE13010_RK
 {
     internal class q11
     {
+        static void Main(string[] args)
+        {
 
+        }
     }
 }
