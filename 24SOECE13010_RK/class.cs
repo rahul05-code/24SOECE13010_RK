@@ -13,7 +13,9 @@ namespace _24SOECE13010_RK
             int[] a = { 1, 2, 3, 4, 5, 6, 7, 8 };
 
             //a.Max();
-            Console.WriteLine("Maximun element is:"+a.Max());
+            Console.WriteLine("Maximum element is:"+a.Max());
+            Console.WriteLine("Minimum element is:" + a.Min());
+            Console.WriteLine("Reverse element is:" + a.Reverse());
         }
     }
 }
