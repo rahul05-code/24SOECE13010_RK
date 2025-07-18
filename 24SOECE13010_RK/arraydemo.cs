@@ -21,6 +21,8 @@ namespace _24SOECE13010_RK
             {
                 Console.WriteLine("Element: " + element);
             }
+
+            arr.Max();
         }
     }
 }
