@@ -10,6 +10,21 @@ namespace _24SOECE13010_RK
     {
         static void Main(string[] args)
         {
+            Console.Write("Enter your name: ");
+            string name = Console.ReadLine();
+
+            Console.Write("Enter your gender(M/F): ");
+            string gen = Console.ReadLine().ToUpper();
+
+            if (gen == "M")
+            {
+                Console.WriteLine("Mr. " + name);
+            }
+            else if(gen == "F")
+            {
+                Console.WriteLine("Ms. " + name);
+            }
+            Console.ReadLine();
 
         }
     }
