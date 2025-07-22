@@ -10,10 +10,6 @@ namespace _24SOECE13010_RK
     {
         public static void Main(string[] args)
         {
-            //    Input number : 5
-            //    Expected Output :
-            //    5 + 55 + 555 + 5555
-            //    The Sum is : 6170
             Console.Write("Input the number of terms: ");
             int n = int.Parse(Console.ReadLine());
 

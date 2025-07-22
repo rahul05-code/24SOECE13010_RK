@@ -59,6 +59,7 @@
     <Compile Include="q19.cs" />
     <Compile Include="q20.cs" />
     <Compile Include="q21.cs" />
+    <Compile Include="q22.cs" />
     <Compile Include="q8.cs" />
     <Compile Include="q9.cs" />
     <Compile Include="tutorial_1.cs" />
