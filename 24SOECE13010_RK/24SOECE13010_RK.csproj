@@ -62,6 +62,7 @@
     <Compile Include="q22.cs" />
     <Compile Include="q8.cs" />
     <Compile Include="q9.cs" />
+    <Compile Include="t2_q1.cs" />
     <Compile Include="tutorial_1.cs" />
   </ItemGroup>
   <ItemGroup>
