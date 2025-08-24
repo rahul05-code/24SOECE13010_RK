@@ -63,6 +63,7 @@
     <Compile Include="q8.cs" />
     <Compile Include="q9.cs" />
     <Compile Include="t2_q1.cs" />
+    <Compile Include="t2_q10.cs" />
     <Compile Include="t2_q2.cs" />
     <Compile Include="t2_q3.cs" />
     <Compile Include="t2_q4.cs" />

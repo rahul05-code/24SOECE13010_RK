@@ -11,7 +11,7 @@ namespace _24SOECE13010_RK
         public static void Main(string[] args)
         {
      
-            int[] arr = { 1, 2, 3, 2, 1, 4 };
+            int[] arr = { 2, 1, 3, 2};
 
             int xor = 0;
 
